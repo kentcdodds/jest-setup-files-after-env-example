@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {render, fireEvent, debugDOM} from 'react-testing-library'
+import {render, fireEvent, debugDOM} from '@testing-library/react'
 import Counter from '..'
 
 test('renders counter', () => {
